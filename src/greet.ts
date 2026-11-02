@@ -1,1 +1,7 @@
-export function greet(name: string) {\n  return `Hello, ${name}!`;\n}\n
+export function greet(name: string) {
+  return `Hello, ${name}!`;
+}
+
+export function farewell(name: string) {
+  return "Goodbye, " + name + "!";
+}
